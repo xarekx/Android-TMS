@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".StatusPage.StatusActivity">
+
+    <item
+        android:title="@string/statusHistory"
+        android:id="@+id/statusHistory"></item>
+    <item
+        android:title="@string/orderDetailsItem"
+        android:id="@+id/sendStatusItem"></item>
+
+</menu>

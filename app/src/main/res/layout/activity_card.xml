@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".CardActivity">
+
+    <include
+        android:id="@+id/toolbarDetails"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCard"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/toolbarDetails"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/orderCard"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="0.5"
+            android:background="@color/white"
+            android:clickable="true"
+            android:onClick="goToOrderList"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/toolbar">
+                <ImageView
+                    android:id="@+id/imageViewCard"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/ic_icon_docs" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/second">
+
+                    <TextView
+                        android:layout_margin="20dp"
+                        android:id="@+id/textViewOrder"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="start"
+                        android:text="@string/orders"
+                        android:textStyle="bold"
+                        android:textColor="@color/maciek"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:elevation="5dp"
+            android:onClick="goToUserActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="#4A525A">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/ic_action_user" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/toolbar">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textStyle="bold"
+                        android:text="@string/profile"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/maciek"
+                        android:textSize="30sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:layout_below="@id/linearLayoutCard"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/maciek"
+        android:text="@string/logout"
+        android:onClick="logout"/>
+
+
+
+</RelativeLayout>

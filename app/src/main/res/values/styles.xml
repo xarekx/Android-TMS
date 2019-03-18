@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/toolbar</item>
+        <item name="colorAccent">@color/maciek</item>
+        <item name="android:textSize">16sp</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <!--<style name="AppTheme.NoActionBar">-->
+        <!--&lt;!&ndash;<item name="windowActionBar">false</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="windowNoTitle">true</item>&ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="android:windowFullscreen">true</item>&ndash;&gt;-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme.CustomAppBar">-->
+        <!--<item name="windowActionBar">true</item>-->
+        <!--<item name="windowNoTitle">false</item>-->
+        <!--<item name="colorPrimary">#a54955</item>-->
+        <!--<item name="android:textSize">16sp</item>-->
+    <!--</style>-->
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/toolbar</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

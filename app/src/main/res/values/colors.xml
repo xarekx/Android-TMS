@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c31432</color>
+    <color name="colorPrimaryDark">#ACA7A7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#D0D0D0</color>
+    <color name="toolbar">#7f9f9f</color>
+    <color name="maciek">#fefefe</color>
+    <color name="second">#4A525A</color>
+    <color name="backgroundColor">#AAAAAA</color>
+
+</resources>

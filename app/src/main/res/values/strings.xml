@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TMS</string>
+    <string name="Login_button">Zaloguj</string>
+    <string name="approve_Button">Potwierdzenia</string>
+    <string name="title_activity_photo_page">Zrób Zdjecie</string>
+    <string name="cannotopencamera">Nie można było otworzyć kamery</string>
+    <string name="activecamera">Kamera aktywowana</string>
+    <string name="zlecenia">Zlecenia</string>
+    <string name="numberAttemps">Liczba prób:</string>
+    <string name="Succes">Zalogowany !</string>
+    <string name="Wrong">Login lub hasło niepoprawne!</string>
+    <string name="logo">LOGO</string>
+    <string name="tvLogin">Użytkownik</string>
+    <string name="zdjecieWykonane">Zdjęcie zapisane</string>
+    <string name="nieMożnaOtworzyćZdjecia">Nie można otworzyć zdjęcia</string>
+    <string name="próbyLogowania">liczba prób logowania: 3</string>
+    <string name="IleZostało">liczba prób logowania:</string>
+    <string name="haslo">Hasło</string>
+    <string name="wyslij">Wyslij</string>
+    <string name="galeria">Galeria</string>
+    <string name="opis">Opis</string>
+    <string name="tytul">Tytuł</string>
+    <string name="status">Zgłoś Status</string>
+    <string name="tms">tms</string>
+    <string name="sendOrder">Wyślij zlecenie !</string>
+    <string name="title">Tytuł</string>
+    <string name="description">Opis</string>
+    <string name="login">Login</string>
+    <string name="lista_zlecen">Lista Zleceń</string>
+    <string name="wyslij_raport">Wyślij Raport</string>
+    <string name="wyslij_status">Wyślij status</string>
+    <string name="wybierz_status">Wybierz status</string>
+    <string name="delivery">Potwierdzenie Dostawy</string>
+    <string name="zdjecie">Zdjęcie</string>
+    <string name="wiadomosc">Wiadomość</string>
+    <string name="addAttachment">Dodaj Załącznik</string>
+    <string name="send">Wyślij</string>
+    <string name="changePassword">Zmień hasło</string>
+    <string name="logout">WYLOGUJ</string>
+    <string name="oldPassword">Stare hasło</string>
+    <string name="newPassword" tools:ignore="Typos">Nowe hasło</string>
+    <string name="newRePassword" tools:ignore="Typos">Powtórz nowe hasło</string>
+    <string name="approve">Zatwierdź</string>
+    <string name="orders">ZLECENIA</string>
+    <string name="profile">PROFIL</string>
+    <string name="statusHistory">Historia statusów</string>
+    <string name="orderDetailsItem">Szczegóły zlecenia</string>
+    <string name="number">Numer: </string>
+    <string name="loadDate">Data załadunku: </string>
+    <string name="unloadDate">Data rozładunku: </string>
+    <string name="logoff">Wylogowano</string>
+    <string name="historyStatus">Status:</string>
+    <string name="historyDate">Data:</string>
+    <string name="find">Wyszukaj</string>
+
+</resources>

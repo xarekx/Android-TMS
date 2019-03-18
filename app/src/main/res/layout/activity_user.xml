@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserPage.UserActivity"
+    android:background="@color/backgroundColor">
+    <include
+        android:id="@+id/toolbarDetails"
+        layout="@layout/toolbar"/>
+    <RelativeLayout
+        android:layout_below="@id/toolbarDetails"
+        android:id="@+id/relativeList"
+        android:layout_width="wrap_content"
+        android:layout_height="470dp">
+    <ListView
+        android:id="@+id/userDetailsList"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/changePasswordButton"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="40dp"
+        android:text="@string/changePassword"
+        android:background="@drawable/loginbutton"
+        android:textColor="@color/maciek"
+        android:layout_below="@id/relativeList"
+        />
+</RelativeLayout>

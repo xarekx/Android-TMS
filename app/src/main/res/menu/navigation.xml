@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_orderList"
+        android:icon="@drawable/list_icon"
+        android:title="@string/lista_zlecen"/>
+
+    <item
+        android:id="@+id/navigation_status"
+        android:icon="@drawable/status_icon"
+        android:title="@string/status"/>
+    <item
+        android:id="@+id/navigation_raport"
+        android:icon="@drawable/raport_icon"
+        android:title="@string/wyslij_raport"/>
+
+</menu>
